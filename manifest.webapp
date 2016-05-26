@@ -1,0 +1,37 @@
+{
+	'name':'El Informador',
+	'version':'0.0.0.0',
+	'description':'El Informador - Diario Venezolano',
+	'launch_path':'index.html',
+	'icons':{
+		'512':'img/ei-512.png',
+		'256':'img/ei-256.png',
+		'128':'img/ei-128.png',
+		'64':'img/ei-64.png',
+		'32':'img/ei-32.png'
+	},
+	'developer':{
+		'name':'Frank Barrera - farkbarn',
+		'url':'http://www.farkbarn.com.ve'
+	},
+	'default_locale':'es',
+	'locales':{
+		'en':{
+			'name':'The reporter',
+			'description':'The Informer - Venezuelan Newspaper'
+		},
+		'pt':{
+			'name':'o Informer',
+			'description':'O Informer - Venezuela Jornal'
+		}
+	},
+	'chrome':{'navigation':true},
+	'fullscreen':'true',
+	'installs_allowed_from':['https://marketplace.firefox.com','http://elinformador.com.ve'],
+	'orientation':['portrait','landscape'],
+	'permissions':{
+		'browser':{
+			'description':'Es necesario el uso del navegador'
+		}
+	}	
+}
